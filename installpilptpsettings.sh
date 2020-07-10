@@ -24,5 +24,3 @@ echo "                                                                          
 echo "                                                                                                                                                              "
 echo "                                                                                                                                                              "
 echo "                                                                                                                                                              "
-
-rm -d -r /home/pi/lptpsettings
