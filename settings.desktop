@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Laptop settings
+Comment=Change settings of this laptop
+Exec=/home/pi/.lptpsettings/modules/scripts/settings.sh
+Icon=/home/pi/.lptpsettings/icons/logo.png
+Terminal=false
+Type=Application
+Categories=Utility;
+
+
