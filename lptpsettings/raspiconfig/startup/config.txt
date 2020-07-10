@@ -1,0 +1,5 @@
+#Enables usb boot on raspberry pi3
+program_usb_boot_mode=1
+
+#To make a program run at startup type "stup -s programname" to run a bash script at startup
+#stup -s /home/pi/.lptpsettings/raspiconfig/startup/programs/startup.sh
