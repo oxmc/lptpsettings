@@ -2,25 +2,5 @@ mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.deskt
 
 unzip /home/pi/lptpsettings/lptpsettins.zip
 
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                      Succesfuly installed lptpsettings to you'r device!                                                      "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
-echo "                                                                                                                                                              "
+echo "Succesfuly installed lptpsettings to this device!"
+
