@@ -1,5 +1,7 @@
-cd /home/pi
+unzip /home/pi/lptpsettings/lptpsettins.zip
 
-mkdir .lptpsettings
+mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.desktop
 
-wget - https://raw.githubusercontent.com/oxmc/lptpsettings/lptpsettings
+rm /home/pi/lptpsettings
+
+echo done!
