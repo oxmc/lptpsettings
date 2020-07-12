@@ -1,4 +1,4 @@
-mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.desktop
+sudo mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.desktop
 
 unzip /home/pi/lptpsettings/lptpsettins.zip
 
