@@ -1,6 +1,6 @@
 sudo mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.desktop
 
-sudo mv /home/pi/lptpsettings/uninstalllptpsettings.sh /home/pi/uninstallpilptpsettings.sh
+sudo mv /home/pi/lptpsettings/uninstallpilptpsettings.sh /home/pi/uninstallpilptpsettings.sh
 
 chmod +x /home/pi/uninstalllptpsettings.sh
 
