@@ -1,3 +1,5 @@
+f=f
+
 sleep 2|tee >(zenity --progress --text="Starting instilation" --progress="0" --no-cancel)
 
 sleep 1|tee >(zenity --progress --text="Moving files" --progress="5" --no-cancel)
