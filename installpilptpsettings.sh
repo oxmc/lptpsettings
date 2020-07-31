@@ -23,11 +23,11 @@ echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
 echo "100" ; sleep 1
 ) |
 zenity --progress \
-  --title="Update System Logs" \
-  --text="Scanning mail logs..." \
+  --title="Installing lptpsettings" \
+  --text="" \
   --percentage=0
 
 if [ "$?" = -1 ] ; then
         zenity --error \
-          --text="Update canceled."
+          --text="Instalation canceled."
 fi
