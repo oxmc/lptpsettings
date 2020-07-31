@@ -6,7 +6,7 @@ main website: https://oxmc.github.io/
 
 ---------
 
-#Instilation
+# Instilation
 
 step 1
 
