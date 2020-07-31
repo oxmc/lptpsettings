@@ -1,29 +1,33 @@
-f=f
-
-sleep 2|tee >(zenity --progress --text="Starting instilation" --progress="0" --no-cancel)
-
-sleep 1|tee >(zenity --progress --text="Moving files" --progress="5" --no-cancel)
-
+(
+echo "# Starting instalation" ; sleep 1
+echo "10" ; sleep 1
+echo "# Moving files" ; sleep 1
 sudo mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.desktop
-
 sudo mv /home/pi/lptpsettings/uninstallpilptpsettings.sh /home/pi/uninstallpilptpsettings.sh
-
-sleep 2|tee >(zenity --progress --text="Making files executible" --progress="10" --no-cancel)
-
+echo "35" ; sleep 1
+echo "# Making files executable" ; sleep 1
 chmod +x /home/pi/uninstalllptpsettings.sh
-
-sleep 2|tee >(zenity --progress --text="Unzipping files" --progress="20" --no-cancel)
-
+echo "40" ; sleep 1
+echo "# Unzipping files" ; sleep 1
 unzip /home/pi/lptpsettings/lptpsettings.zip
-
-sleep 2|tee >(zenity --progress --text="Files unziped, now moving into proper directorys" --progress="40" --no-cancel)
-
+echo "50" ; sleep 1
+echo "# Files finished unzipping" ; sleep 1
 mv /home/pi/lptpsettings/home/pi/.lptpsettings /home/pi/.lptpsettings
-
-sleep 2|tee >(zenity --progress --text="Removing unused files" --progress="60" --no-cancel)
-
+echo "60" ; sleep 1
+echo "# Getting rid of useles files" ; sleep 1
 rm -d -r /home/pi/lptpsettings
+echo "80" ; sleep 1
+echo "# Instilation Completed!" ; sleep 1
+echo "99" ; sleep 1
+echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
+echo "100" ; sleep 1
+) |
+zenity --progress \
+  --title="Update System Logs" \
+  --text="Scanning mail logs..." \
+  --percentage=0
 
-sleep 2|tee >(zenity --progress --text="Instilation completed!" --progress="100" --no-cancel)
-
-sleep 2|tee >(zenity --progress --text="Succesfuly installed lptpsettings to this device!" --progress="100" --no-cancel)
+if [ "$?" = -1 ] ; then
+        zenity --error \
+          --text="Update canceled."
+fi
