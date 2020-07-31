@@ -1,4 +1,4 @@
-zenity --progress --text="Starting instilation" --progress="0" --auto-close
+zenity --progress --text="Starting instilation" --progress="0" --auto-kill
 
 zenity --progress --text="Moving files" --progress="5"
 
