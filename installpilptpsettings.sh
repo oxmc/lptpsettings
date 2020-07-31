@@ -1,12 +1,12 @@
-zenity --progress --text="Starting instilation" --progress="0" --auto-kill
+sleep 2|tee >(zenity --progress --text="Starting instilation" --progress="0")
 
-zenity --progress --text="Moving files" --progress="5"
+sleep 1|tee >(zenity --progress --text="Moving files" --progress="5")
 
 sudo mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.desktop
 
 sudo mv /home/pi/lptpsettings/uninstallpilptpsettings.sh /home/pi/uninstallpilptpsettings.sh
 
-zenity --progress --text="Making files executible" --progress="10"
+sleep 2|tee >(zenity --progress --text="Making files executible" --progress="10")
 
 chmod +x /home/pi/uninstalllptpsettings.sh
 
