@@ -1,6 +1,4 @@
-zenity --progress --text="Starting instilation" --progress="0"
-
-sleep 1
+zenity --progress --text="Starting instilation" --progress="0" --auto-close
 
 zenity --progress --text="Moving files" --progress="5"
 
@@ -24,6 +22,12 @@ zenity --progress --text="Removing unused files" --progress="60"
 
 rm -d -r /home/pi/lptpsettings
 
-zenity --progress --text="Instilation completed!" --progress="100"
+zenity --progress --text="Instilation completed!" --progress="100" --no-cancel
 
-zenity --progress --text="Succesfuly installed lptpsettings to this device!" --progress="100" --auto-close
+sleep
+
+zenity --progress --text="Succesfuly installed lptpsettings to this device!" --progress="100"
+
+sleep 1
+
+exit 0
