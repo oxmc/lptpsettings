@@ -34,7 +34,7 @@ run the files by typing
 ```
 step 4
 
-#That's it!
+# That's it!
 
 you are now done with typing and running files!
 Now just wait for it to complete then lptpsettings should be installed!
