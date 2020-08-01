@@ -18,10 +18,11 @@ echo "# Getting rid of useles files" ; sleep 1
 echo "69" ; sleep .5
 echo "70" ; sleep .5
 echo "78" ; sleep .5
+echo "84" ; sleep .5
+echo "89" ; sleep .5
+echo "90" ; sleep .5
 rm -d -r /home/pi/lptpsettings
-echo "80" ; sleep 1
-echo "# Instilation Completed!" ; sleep 1
-echo "99" ; sleep 1
+echo "95" ; sleep .5
 echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
 echo "100" ; sleep 1
 ) |
