@@ -15,6 +15,9 @@ echo "# Files finished unzipping" ; sleep 1
 mv /home/pi/lptpsettings/home/pi/.lptpsettings /home/pi/.lptpsettings
 echo "60" ; sleep 1
 echo "# Getting rid of useles files" ; sleep 1
+echo "69" ; sleep .5
+echo "70" ; sleep .5
+echo "78" ; sleep .5
 rm -d -r /home/pi/lptpsettings
 echo "80" ; sleep 1
 echo "# Instilation Completed!" ; sleep 1
