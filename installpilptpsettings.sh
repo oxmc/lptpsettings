@@ -24,8 +24,8 @@ echo "90" ; sleep .5
 rm -d -r /home/pi/lptpsettings
 echo "95" ; sleep .5
 echo "97" ; sleep .5
-echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
 echo "100" ; sleep 1
+echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
 ) |
 zenity --progress \
   --title="Installing lptpsettings" \
