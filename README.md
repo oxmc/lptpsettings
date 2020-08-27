@@ -9,7 +9,9 @@ main website: https://oxmc.github.io/
 # Packages included with lptpsettings
 
 a small fallout easter egg in lptpsettings/etc/?
+
 lptpsettings framework
+
 lptpsettings gui
 
 # Things to be implemented
