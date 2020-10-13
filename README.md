@@ -14,13 +14,28 @@ lptpsettings framework
 
 lptpsettings gui
 
+xscreensaver
+
+NetworkManager
+
+
+
 # Things to be implemented
 
-custom backgrounds/startup sounds
+custom boot screen
 
 --------
 
-# Instilation
+# installation
+You have two options for installing lptpsettings!
+all in one command or step by step.
+
+All in one command
+```
+git clone https://github.com/oxmc/lptpsettings.git && chmod +x /home/pi/lptpsettings/*.sh && /home/pi/lptpsettings/installpilptpsettings.sh
+```
+
+Manual step by step
 
 step 1
 
@@ -46,6 +61,7 @@ run the files by typing
 ```
 /home/pi/lptpsettings/installpilptpsettings.sh
 ```
+
 step 4
 
 # That's it!
