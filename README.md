@@ -30,7 +30,7 @@ all in one command or step by step.
 
 All in one command
 ```
-git clone https://github.com/oxmc/lptpsettings.git && chmod +x /home/pi/lptpsettings/*.sh && /home/pi/lptpsettings/installpilptpsettings.sh
+git clone https://github.com/oxmc/lptpsettings.git && sudo chmod +x /home/pi/lptpsettings/*.sh && sudo chmod 755 /home/pi/lptpsettings/*.sh && sudo bash/home/pi/lptpsettings/installpilptpsettings.sh
 ```
 
 Manual step by step
@@ -49,7 +49,8 @@ step 2
 Next we need to make the files executable
 
 ```
-chmod +x /home/pi/lptpsettings/*.sh
+sudo chmod +x /home/pi/lptpsettings/*.sh
+sudo chmod 755 /home/pi/lptpsettings/*.sh
 ```
 
 step 3
@@ -57,7 +58,7 @@ step 3
 run the files by typing
 
 ```
-bash /home/pi/lptpsettings/installpilptpsettings.sh
+sudo bash /home/pi/lptpsettings/installpilptpsettings.sh
 ```
 
 step 4
