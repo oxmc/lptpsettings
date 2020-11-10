@@ -59,7 +59,7 @@ step 3
 run the files by typing
 
 ```
-/home/pi/lptpsettings/installpilptpsettings.sh
+bash /home/pi/lptpsettings/installpilptpsettings.sh
 ```
 
 step 4
