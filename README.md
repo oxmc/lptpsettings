@@ -8,17 +8,13 @@ main website: https://oxmc.github.io/
 
 # Packages included with lptpsettings
 
-a small fallout easter egg in lptpsettings/etc/?
-
-lptpsettings framework
-
-lptpsettings gui
-
 xscreensaver
 
 NetworkManager
 
+samba
 
+raspisecurity
 
 # Things to be implemented
 
@@ -26,6 +22,8 @@ custom boot screen
 
 --------
 
+# Supported OSes
+raspbian raspberry pi os 32-bit
 # installation
 You have two options for installing lptpsettings!
 all in one command or step by step.
