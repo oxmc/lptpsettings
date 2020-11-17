@@ -9,7 +9,7 @@ echo "30" ; sleep 1
 echo "# Moving files" ; sleep 1
 sudo mv /home/pi/lptpsettings/settings.desktop /usr/share/applications/settings.desktop
 echo "40" ; sleep 1
-mv /home/pi/lptpsettings/home/pi/.lptpsettings /home/pi/.lptpsettings
+mv /home/pi/home/pi/.lptpsettings /home/pi/.lptpsettings
 echo "50" ; sleep 1
 sudo mv /home/pi/lptpsettings/uninstall.desktop /usr/share/applications/lptpsettingsuninstaller.desktop
 echo "60" ; sleep 1
@@ -21,15 +21,15 @@ echo "80" ; sleep 1
 echo "# Getting rid of useles files" ; sleep 1
 rm -d -r /home/pi/lptpsettings
 echo "90" ; sleep 1
-echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
 echo "100"
+echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
 ) |
 zenity --progress \
   --title="Installing lptpsettings" \
   --text="" \
   --percentage=0
 
-if [ "$?" = -1 ] ; then
+if [ "$?" = 1 ] ; then
         zenity --error \
           --text="Instalation canceled."
 fi
