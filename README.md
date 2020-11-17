@@ -8,13 +8,13 @@ main website: https://oxmc.github.io/
 
 # Packages included with lptpsettings
 
-xscreensaver
+xscreensaver-Jamie Zawinski
 
-NetworkManager
+NetworkManager-Red Hat
 
-samba
+samba-?
 
-cool retro-term
+cool retro-term-Swordfish90 <a class="github-button" href="https://github.com/Swordfish90/cool-retro-term" data-icon="octicon-issue-opened" aria-label="Itest">Repository</a>
 
 # Things to be implemented
 
