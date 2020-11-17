@@ -30,7 +30,7 @@ all in one command or step by step.
 
 All in one command
 ```
-git clone https://github.com/oxmc/lptpsettings.git && sudo chmod +x /home/pi/lptpsettings/*.sh && sudo chmod 755 /home/pi/lptpsettings/*.sh && sudo bash/home/pi/lptpsettings/installpilptpsettings.sh
+git clone https://github.com/oxmc/lptpsettings.git && sudo chmod +x /home/pi/lptpsettings/*.sh && sudo chmod 755 /home/pi/lptpsettings/*.sh && sudo bash /home/pi/lptpsettings/installpilptpsettings.sh
 ```
 
 Manual step by step
