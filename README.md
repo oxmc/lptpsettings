@@ -30,7 +30,7 @@ all in one command or step by step.
 
 All in one command
 ```
-wget -O - https://raw.githubusercontent.com/oxmc/lptpsettings/main/getfiles.sh | bash
+wget -O - https://raw.githubusercontent.com/oxmc/lptpsettings/master/getfiles.sh | bash
 ```
 
 Manual step by step
@@ -50,7 +50,6 @@ Next we need to make the files executable
 
 ```
 sudo chmod +x /home/pi/lptpsettings/*.sh
-sudo chmod 755 /home/pi/lptpsettings/*.sh
 ```
 
 step 3
@@ -60,8 +59,6 @@ run the files by typing
 ```
 sudo bash /home/pi/lptpsettings/installpilptpsettings.sh
 ```
-
-step 4
 
 # That's it!
 
