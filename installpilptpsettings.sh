@@ -19,8 +19,10 @@ echo "# Making files executable" ; sleep 1
 chmod +x /usr/share/applications/uninstalllptpsettings.sh
 echo "80" ; sleep 1
 echo "# Getting rid of useles files" ; sleep 1
+echo "85" ; sleep 1
 rm -d -r /home/pi/lptpsettings
 echo "90" ; sleep 1
+rm -d -r /home/pi/home/* ; sleep 1
 echo "100"
 echo "# Succesfully installed lptpsettings to this device!" ; sleep 1
 ) |
