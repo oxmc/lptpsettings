@@ -14,7 +14,7 @@ NetworkManager
 
 samba
 
-raspisecurity
+cool retro-term
 
 # Things to be implemented
 
