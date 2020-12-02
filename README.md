@@ -2,7 +2,7 @@
 
 these are all the files for raspilaptopsettings
 
-main website: https://oxmc.github.io/
+main website: https://oxmc.github.io//lptpsettings.html
 
 ---------
 
